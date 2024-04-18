@@ -76,7 +76,7 @@ namespace Vista_PrototipoMenu
         //Método que muestra el formulario indicado
         private void btnaplicaciones_Click(object sender, EventArgs e)
         {
-            frmAplicaciones form = new frmAplicaciones();
+            mantecamp form = new mantecamp();
             form.MdiParent = this;
             form.Show();
             hideSubMenu();

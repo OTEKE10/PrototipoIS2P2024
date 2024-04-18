@@ -30,7 +30,6 @@ namespace Vista_PrototipoMenu
         private void InitializeComponent()
         {
             this.panelLogo = new System.Windows.Forms.Panel();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.btninicio = new System.Windows.Forms.Button();
             this.btnmanteniminetos = new System.Windows.Forms.Button();
             this.panelTranportes = new System.Windows.Forms.Panel();
@@ -49,11 +48,12 @@ namespace Vista_PrototipoMenu
             this.btnayuda = new System.Windows.Forms.Button();
             this.panelSideMenu = new System.Windows.Forms.Panel();
             this.btnsalir = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panelLogo.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panelTranportes.SuspendLayout();
             this.PanelAuditoria.SuspendLayout();
             this.panelSideMenu.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // panelLogo
@@ -65,18 +65,6 @@ namespace Vista_PrototipoMenu
             this.panelLogo.Name = "panelLogo";
             this.panelLogo.Size = new System.Drawing.Size(555, 209);
             this.panelLogo.TabIndex = 0;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.BackColor = System.Drawing.Color.DarkSlateGray;
-            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox1.Image = global::Vista_PrototipoMenu.Properties.Resources.prototipofinal2;
-            this.pictureBox1.Location = new System.Drawing.Point(36, 13);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(277, 186);
-            this.pictureBox1.TabIndex = 7;
-            this.pictureBox1.TabStop = false;
             // 
             // btninicio
             // 
@@ -93,7 +81,7 @@ namespace Vista_PrototipoMenu
             this.btninicio.Padding = new System.Windows.Forms.Padding(68, 0, 0, 0);
             this.btninicio.Size = new System.Drawing.Size(555, 60);
             this.btninicio.TabIndex = 0;
-            this.btninicio.Text = "INICIO";
+            this.btninicio.Text = "ABRIR";
             this.btninicio.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btninicio.UseVisualStyleBackColor = false;
             this.btninicio.Click += new System.EventHandler(this.btninicio_Click);
@@ -178,7 +166,7 @@ namespace Vista_PrototipoMenu
             this.btnaplicaciones.Padding = new System.Windows.Forms.Padding(85, 0, 0, 0);
             this.btnaplicaciones.Size = new System.Drawing.Size(555, 66);
             this.btnaplicaciones.TabIndex = 3;
-            this.btnaplicaciones.Text = "APLICACIONES";
+            this.btnaplicaciones.Text = "CAMPEONATOS";
             this.btnaplicaciones.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnaplicaciones.UseVisualStyleBackColor = true;
             this.btnaplicaciones.Click += new System.EventHandler(this.btnaplicaciones_Click);
@@ -283,7 +271,7 @@ namespace Vista_PrototipoMenu
             this.btnReportes.Padding = new System.Windows.Forms.Padding(68, 0, 0, 0);
             this.btnReportes.Size = new System.Drawing.Size(555, 60);
             this.btnReportes.TabIndex = 8;
-            this.btnReportes.Text = "REPORTES";
+            this.btnReportes.Text = "INFORMES";
             this.btnReportes.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnReportes.UseVisualStyleBackColor = false;
             this.btnReportes.Click += new System.EventHandler(this.btnReportes_Click);
@@ -394,6 +382,18 @@ namespace Vista_PrototipoMenu
             this.btnsalir.UseVisualStyleBackColor = false;
             this.btnsalir.Click += new System.EventHandler(this.btnsalir_Click);
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackColor = System.Drawing.Color.DarkSlateGray;
+            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox1.Image = global::Vista_PrototipoMenu.Properties.Resources.prototipofinal2;
+            this.pictureBox1.Location = new System.Drawing.Point(36, 13);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(277, 186);
+            this.pictureBox1.TabIndex = 7;
+            this.pictureBox1.TabStop = false;
+            // 
             // MenuPrototipo
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -406,10 +406,10 @@ namespace Vista_PrototipoMenu
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Menu Prototipo";
             this.panelLogo.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panelTranportes.ResumeLayout(false);
             this.PanelAuditoria.ResumeLayout(false);
             this.panelSideMenu.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }

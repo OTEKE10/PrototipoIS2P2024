@@ -44,6 +44,9 @@
     <Reference Include="FontAwesome.Sharp, Version=6.1.1.0, Culture=neutral, PublicKeyToken=d16d1e4e568ec10f, processorArchitecture=MSIL">
       <HintPath>..\packages\FontAwesome.Sharp.6.1.1\lib\net472\FontAwesome.Sharp.dll</HintPath>
     </Reference>
+    <Reference Include="Navegador2.0">
+      <HintPath>..\..\..\..\..\..\..\..\..\Nueva carpeta\ISP12k24\Equipo2\Codigo\Componentes\Navegador2.0\Navegador2.0\bin\Debug\Navegador2.0.dll</HintPath>
+    </Reference>
     <Reference Include="NavegadorVista">
       <HintPath>..\..\..\..\..\..\..\ProyectosdeReferencia\Prototipos\proyectois2k23\Codigo\Componentes\Navegador\Vista\bin\Debug\NavegadorVista.dll</HintPath>
     </Reference>
@@ -157,6 +160,12 @@
     <Compile Include="HorariosDispo.Designer.cs">
       <DependentUpon>HorariosDispo.cs</DependentUpon>
     </Compile>
+    <Compile Include="mantecamp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="mantecamp.Designer.cs">
+      <DependentUpon>mantecamp.cs</DependentUpon>
+    </Compile>
     <Compile Include="MenuPrototipo.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -222,6 +231,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="HorariosDispo.resx">
       <DependentUpon>HorariosDispo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="mantecamp.resx">
+      <DependentUpon>mantecamp.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MenuPrototipo.resx">
       <DependentUpon>MenuPrototipo.cs</DependentUpon>

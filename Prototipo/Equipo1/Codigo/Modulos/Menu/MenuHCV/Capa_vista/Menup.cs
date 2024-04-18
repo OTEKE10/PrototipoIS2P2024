@@ -113,7 +113,7 @@ namespace MenuHCV
 
         private void btnPrototipo_Click(object sender, EventArgs e)
         {
-            CapaVistaERP.MDIGeneral form = new CapaVistaERP.MDIGeneral();
+            Vista_PrototipoMenu.MenuPrototipo form = new Vista_PrototipoMenu.MenuPrototipo();
             form.Show();
             cn.setBtitacora("8000", "Ingreso Prototipo");
         }
